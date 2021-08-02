@@ -1,0 +1,23 @@
+export class CreateProjectosDto{
+    _id:object;
+    idConcurso:string;
+    nombreConcurso:string;
+    nombreProyecto:string;
+    nombreGrupo:string;
+    encargado:string;
+    ciclo:string;
+    curso:string;
+    docente:string;
+    estudiantes:[{
+        codigo:number;
+        nombres:string;
+        apellidos:string;
+        correo:string;
+        celular:string;
+    }];
+    categoria:string;    
+    estado:string;
+    path:[];
+    github:string;
+    concurso:string;
+}
